@@ -1,0 +1,1 @@
+println "Print from script"
