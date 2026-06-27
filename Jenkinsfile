@@ -13,7 +13,8 @@ pipeline {
         stage('Print from Script') {
             steps {
                 script {
-                    evaluate(readFile('scripts/print.groovy'))
+                    evaluate(readFile('print.groovy'))
+    
                 }
             }
         }
